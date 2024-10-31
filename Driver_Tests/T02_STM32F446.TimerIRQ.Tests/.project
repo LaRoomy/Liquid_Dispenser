@@ -35,12 +35,27 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
+			<name>Tools</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
 			<name>Drivers/inc</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
 			<name>Drivers/src</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Tools/inc</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Tools/src</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
@@ -180,21 +195,6 @@
 			<locationURI>PARENT-2-PROJECT_LOC/Shared_Source/Drivers/src/spi.c</locationURI>
 		</link>
 		<link>
-			<name>Drivers/src/stm32f4xx_tools.c</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Shared_Source/Drivers/src/stm32f4xx_tools.c</locationURI>
-		</link>
-		<link>
-			<name>Drivers/src/string_tools.c</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Shared_Source/Drivers/src/string_tools.c</locationURI>
-		</link>
-		<link>
-			<name>Drivers/src/test_tools.c</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Shared_Source/Drivers/src/test_tools.c</locationURI>
-		</link>
-		<link>
 			<name>Drivers/src/tim.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/Shared_Source/Drivers/src/tim.c</locationURI>
@@ -205,9 +205,44 @@
 			<locationURI>PARENT-2-PROJECT_LOC/Shared_Source/Drivers/src/uart.c</locationURI>
 		</link>
 		<link>
-			<name>Drivers/src/uint8_tools.c</name>
+			<name>Tools/inc/stm32f4xx_tools.h</name>
 			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/Shared_Source/Drivers/src/uint8_tools.c</locationURI>
+			<locationURI>PARENT-2-PROJECT_LOC/Shared_Source/Tools/inc/stm32f4xx_tools.h</locationURI>
+		</link>
+		<link>
+			<name>Tools/inc/string_tools.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Shared_Source/Tools/inc/string_tools.h</locationURI>
+		</link>
+		<link>
+			<name>Tools/inc/test_tools.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Shared_Source/Tools/inc/test_tools.h</locationURI>
+		</link>
+		<link>
+			<name>Tools/inc/uint8_tools.h</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Shared_Source/Tools/inc/uint8_tools.h</locationURI>
+		</link>
+		<link>
+			<name>Tools/src/stm32f4xx_tools.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Shared_Source/Tools/src/stm32f4xx_tools.c</locationURI>
+		</link>
+		<link>
+			<name>Tools/src/string_tools.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Shared_Source/Tools/src/string_tools.c</locationURI>
+		</link>
+		<link>
+			<name>Tools/src/test_tools.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Shared_Source/Tools/src/test_tools.c</locationURI>
+		</link>
+		<link>
+			<name>Tools/src/uint8_tools.c</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Shared_Source/Tools/src/uint8_tools.c</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

@@ -5,12 +5,14 @@
       <includepath>${ProjDirPath}\..\..\Shared_Source\Drivers\inc</includepath>
       <includepath>${ProjDirPath}\..\..\Shared_Source\STM32F4xx_chip_headers\CMSIS\Include</includepath>
       <includepath>${ProjDirPath}\..\..\Shared_Source\STM32F4xx_chip_headers\CMSIS\Device\ST\STM32F4xx\Include</includepath>
+      <includepath>${ProjDirPath}\..\..\Shared_Source\Tools\inc</includepath>
     </language>
     <language id="org.eclipse.cdt.core.gcc" name="C Source File">
       <includepath>Inc</includepath>
       <includepath>${ProjDirPath}\..\..\Shared_Source\Drivers\inc</includepath>
       <includepath>${ProjDirPath}\..\..\Shared_Source\STM32F4xx_chip_headers\CMSIS\Include</includepath>
       <includepath>${ProjDirPath}\..\..\Shared_Source\STM32F4xx_chip_headers\CMSIS\Device\ST\STM32F4xx\Include</includepath>
+      <includepath>${ProjDirPath}\..\..\Shared_Source\Tools\inc</includepath>
     </language>
     <language name="Object File"/>
   </section>
