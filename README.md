@@ -1,4 +1,5 @@
 # Liquid Dispenser Portfolio Project
+TODO: small banner image !!
  The purpose of this project is to demonstrate my C/C++ embedded programming skills. Many programming techniques and microcontroller functions are covered by this project:
  - Basic C/C++ development
  - C/C++ Design Patterns
