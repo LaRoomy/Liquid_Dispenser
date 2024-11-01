@@ -1,5 +1,7 @@
 # Liquid Dispenser Portfolio Project
-TODO: small banner image !!
+![project image banner](https://github.com/LaRoomy/Liquid_Dispenser/blob/main/Resource/pipes_banner_img.png)
+
+
  The purpose of this project is to demonstrate my C/C++ embedded programming skills. Many programming techniques and microcontroller functions are covered by this project:
  - Basic C/C++ development
  - C/C++ Design Patterns
