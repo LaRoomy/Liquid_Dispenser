@@ -225,20 +225,7 @@ can_result_t can_init(uint32_t mode, int nFilters, uint32_t* filterIDs)
 	// activate interrupts
 	CAN1->IER |= ((IER_LECIE)/*|(IER_ERRIE)*/|(IER_FMPIE0)|(IER_TMEIE));
 
-	// make sure the can rx interrupt is prioritized over the tx interrupt
-//#ifndef RTOS_MAX_SYSCALL_INTERRUPT_PRIORITY
-//	uint32_t tx_prio = NVIC_GetPriority(CAN1_TX_IRQn);
-//	uint32_t rx_prio = NVIC_GetPriority(CAN1_RX0_IRQn);
-//	if(rx_prio >= tx_prio)
-//	{
-//		NVIC_SetPriority(CAN1_TX_IRQn, rx_prio + 1);
-//	}
-//#else
-//	NVIC_SetPriority(CAN1_RX0_IRQn, RTOS_MAX_SYSCALL_INTERRUPT_PRIORITY);
-//	NVIC_SetPriority(CAN1_TX_IRQn, RTOS_MAX_SYSCALL_INTERRUPT_PRIORITY + 1U);
-//#endif
-
-	// make sure the no interrupt level is zero and
+	// make sure the interrupt level is not zero and
 	// make sure the can rx interrupt is prioritized over the tx interrupt
 	NVIC_SetPriority(CAN1_RX0_IRQn, 1U);
 	NVIC_SetPriority(CAN1_TX_IRQn, 2U);
