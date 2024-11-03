@@ -15,7 +15,7 @@
  - Other common busses (I2C, UART, SPI)
 
 > [!NOTE]
-> All code is developed and written by myself using the reference documents of the respective devices and peripherals, except the driver of the ILI9341 display. This files are adapted and rewritten, to conform with the object based c programming, using the [stm32-ili9341](https://github.com/afiskon/stm32-ili9341/tree/master) library.
+> All code is developed and written by myself using the reference documents of the respective devices and peripherals, except the driver for the ILI9341 display. This files are adapted and rewritten, to conform with the object based c programming, using the [stm32-ili9341](https://github.com/afiskon/stm32-ili9341/tree/master) library.
 
 ## Hardware and IDE
 TODO: what ide and hardware did you use
