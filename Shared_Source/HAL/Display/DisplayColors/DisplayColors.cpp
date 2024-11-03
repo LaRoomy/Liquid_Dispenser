@@ -1,0 +1,37 @@
+#include "DisplayColors.hpp"
+
+const COLOR Colors::Red = { 255, 0, 0 };
+const COLOR Colors::Green = { 0, 255, 0 };
+const COLOR Colors::Blue = { 0, 0, 255 };
+const COLOR Colors::White = { 255, 255, 255 };
+const COLOR Colors::Black = { 0, 0, 0 };
+const COLOR Colors::Cyan = { 0, 255, 255 };
+const COLOR Colors::Magenta = { 255, 0, 255 };
+const COLOR Colors::Orange = { 255, 165, 0 };
+const COLOR Colors::Yellow = { 255, 255, 0 };
+const COLOR Colors::Purple = { 128, 0, 255 };
+const COLOR Colors::Mint = { 153, 255, 204 };
+const COLOR Colors::Aqua = { 102, 224, 255 };
+const COLOR Colors::Brown = { 165, 42, 42 };
+const COLOR Colors::Pink = { 255, 192, 203 };
+const COLOR Colors::SlateGray = { 112, 128, 144 };
+const COLOR Colors::YellowGreen = { 154, 205, 50 };
+const COLOR Colors::GreenYellow = { 173, 255, 47 };
+const COLOR Colors::Gold = { 255, 215, 0 };
+const COLOR Colors::Gray = { 180, 180, 180 };
+const COLOR Colors::Coral = { 255, 127, 80 };
+const COLOR Colors::SeaGreen = { 46, 139, 87 };
+const COLOR Colors::DeepPink = { 255, 20, 147 };
+const COLOR Colors::DarkBlue = { 0, 0, 139 };
+const COLOR Colors::DarkCyan = { 0, 139, 139 };
+const COLOR Colors::DarkRed = { 139, 0, 0 };
+const COLOR Colors::DarkGreen = { 0, 100, 0 };
+const COLOR Colors::DarkMagenta = { 139, 0, 139 };
+const COLOR Colors::DarkSlateGray = { 47, 79, 79 };
+const COLOR Colors::DarkSeaGreen = { 143, 188, 143 };
+const COLOR Colors::DarkGray = { 115, 115, 115 };
+const COLOR Colors::LightBlue = { 173, 216, 230 };
+const COLOR Colors::LightCyan = { 224, 255, 255 };
+const COLOR Colors::LightGray = { 220, 220, 220 };
+const COLOR Colors::LightGreen = { 144, 238, 144 };
+const COLOR Colors::LightRed = { 255, 153, 153 };
