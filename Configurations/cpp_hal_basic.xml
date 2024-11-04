@@ -88,6 +88,18 @@
         <name>STM32F446RETx</name>
         <value/>
       </macro>
+      <macro>
+        <name>NUCLEO_F446RE</name>
+        <value/>
+      </macro>
+      <macro>
+        <name>MCU_CLOCK</name>
+        <value>48000000U</value>
+      </macro>
+      <macro>
+        <name>STM32F446xx</name>
+        <value/>
+      </macro>
     </language>
     <language name="Object File"/>
   </section>
