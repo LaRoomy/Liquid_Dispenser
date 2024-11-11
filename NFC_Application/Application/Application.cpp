@@ -52,9 +52,6 @@ void Application::init(INfcController * _nfcControllerInstance, ICanController *
 	this->canControllerInstance->init(&filters);
 	this->canControllerInstance->registerCallback(dynamic_cast<ICanCallback*>(this));
 
-	// TODO: TEMP!!!
-	//this->canControllerInstance->enableLoopBackMode();
-
 	if(_nfcControllerInstance == nullptr)
 	{
 		this->processCriticalError("NFC controller was null");
