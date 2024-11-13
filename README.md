@@ -78,7 +78,7 @@ This project demonstrates proficiency with a variety of embedded systems technol
 
 Clone the repository:
 
-```bash
+```
 git clone https://github.com/yourusername/liquid-dispenser.git
 ```
 
