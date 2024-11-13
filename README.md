@@ -16,7 +16,10 @@ Table of Contents
 - [License](#license)
 
 TODO: image of the parts and the schematic of the modules and so on.. ?
-TOOD: enable links to important entries and words
+
+TODO: enable links to important entries and words
+
+TODO: external tools used (e.g. GoogleTest) and links to install instructions and the tools itself
 
 ## Features
 
@@ -92,7 +95,7 @@ This project was planned using the Unified Modeling Language (UML) to outline th
 
 ## Additional Info
 > [!NOTE]
-> All code is developed and written by myself using the reference documents of the respective devices and peripherals, except the driver for the ILI9341 display. This files are adapted and rewritten, to conform with the object based c programming, using the [stm32-ili9341](https://github.com/afiskon/stm32-ili9341/tree/master) library.
+> All code is developed and written by Hans Philipp Zimmermann using the reference documents of the respective devices and peripherals, except the driver for the ILI9341 display. This files are adapted and rewritten, to conform with the object based c programming, using the [stm32-ili9341](https://github.com/afiskon/stm32-ili9341/tree/master) library.
 
 ## License
 
