@@ -76,11 +76,13 @@ This project demonstrates proficiency with a variety of embedded systems technol
 
 ### Installation
 
-- Clone the repository:
-```
+Clone the repository:
+
+```bash
 git clone https://github.com/yourusername/liquid-dispenser.git
 ```
-- Open each application in your IDE, configure board connections, and build.
+
+Open each application in your IDE, configure board connections, and build.
 
 ### Usage
 
