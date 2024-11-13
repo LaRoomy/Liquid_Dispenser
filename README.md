@@ -78,8 +78,8 @@ This project demonstrates proficiency with a variety of embedded systems technol
 
 Clone the repository:
 
-```
-git clone https://github.com/yourusername/liquid-dispenser.git
+```bash
+git clone https://github.com/LaRoomy/Liquid_Dispenser.git
 ```
 
 Open each application in your IDE, configure board connections, and build.
