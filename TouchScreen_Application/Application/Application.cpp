@@ -365,6 +365,7 @@ void Application::CleanUp()
 {
 	this->canQueueDataList.eraseAll();
 	this->displayInstructionList.eraseAll();
+	this->touchActionInProgress = false;
 }
 
 void Application::drawInactiveScreen()
