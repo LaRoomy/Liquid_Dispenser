@@ -61,4 +61,7 @@ dkms.conf
 # misc
 .segger_rec
 
+# vs-code
+*.code-workspace
+
 

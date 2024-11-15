@@ -1,5 +1,5 @@
 # Liquid Dispenser Portfolio Project
-![project image banner](https://github.com/LaRoomy/Liquid_Dispenser/blob/main/Resource/pipes_banner_img.png)
+![project image banner](https://github.com/LaRoomy/Liquid_Dispenser/blob/main/Resources/pipes_banner_img.png)
 
 ## Overview
 The Liquid Dispenser project is a comprehensive demonstration of embedded systems design and development, showcasing my expertise across a range of technical areas. This project was created as a portfolio piece to highlight my embedded development skills for potential employers. It integrates hardware control, real-time communication, and user interface components in a dynamic, real-world application.
@@ -30,6 +30,9 @@ TODO: external tools used (e.g. GoogleTest) and links to install instructions an
 + Developed to demonstrate expertise in hardware-software integration, real-time systems, and modern embedded software practices
 
 ## Hardware Components
+
+![hardware-schematic](https://github.com/LaRoomy/Liquid_Dispenser/blob/main/Resources/hardware_schematic.png)
+
  - STM322F446 Evaluation Board
  - ILI93?? Display-Touch combined board
  - NFC07A1 ?? Nucleo Expansion board using the STDVKxx ...
