@@ -1,5 +1,5 @@
 # Liquid Dispenser Portfolio Project
-![project image banner](https://github.com/LaRoomy/Liquid_Dispenser/blob/main/Resources/pipes_banner_img.png)
+![project image banner](Resources/pipes_banner_img.png)
 
 ## Overview
 The Liquid Dispenser project is a comprehensive demonstration of embedded systems design and development, showcasing my expertise across a range of technical areas. This project was created as a portfolio piece to highlight my embedded development skills for potential employers. It integrates hardware control, real-time communication, and user interface components in a dynamic application.
@@ -7,6 +7,7 @@ The Liquid Dispenser project is a comprehensive demonstration of embedded system
 ### Table of Contents
 
 - [Features](#features)
+- [Project Structure](#project-structure)
 - [Hardware Components](#hardware-components)
 - [Software Architecture](#software-architecture)
 - [Skills and Technologies](#skills-and-technologies)
@@ -30,9 +31,13 @@ TODO: external tools used (e.g. GoogleTest) and links to install instructions an
 + Structured, modular code design with hardware-independent unit tests for robust validation
 + Developed to demonstrate expertise in hardware-software integration, real-time systems, and modern embedded software practices
 
+## Project Structure
+
+TODO: add the project structure, either as a tree or as a image..
+
 ## Hardware Components
 
-![hardware-schematic](https://github.com/LaRoomy/Liquid_Dispenser/blob/main/Resources/hardware_schematic.png)
+![hardware-schematic](Resources/hardware_schematic.png)
 
  - STM322F446 Evaluation Board
  - ILI93?? Display-Touch combined board
@@ -55,7 +60,7 @@ The project employs a layered software architecture, including:
 - Hardware Abstraction Layer (HAL): Connector classes in C++ for simplified access to hardware features
 - Business Logic: High-level application logic in C++ that coordinates each stage of the dispensing process
 
-TODO: image of the layered architecture
+TODO: image of the layered architecture !!
 
 ## Skills and Technologies
 
