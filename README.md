@@ -2,8 +2,9 @@
 ![project image banner](https://github.com/LaRoomy/Liquid_Dispenser/blob/main/Resource/pipes_banner_img.png)
 
 ## Overview
-The Liquid Dispenser project is a comprehensive demonstration of embedded systems design and development, showcasing my expertise across a range of technical areas. This project was created as a portfolio piece to highlight my embedded development skills for potential employers. It integrates hardware control, real-time communication, and user interface components in a dynamic, real-world application.
-Table of Contents
+The Liquid Dispenser project is a comprehensive demonstration of embedded systems design and development, showcasing my expertise across a range of technical areas. This project was created as a portfolio piece to highlight my embedded development skills for potential employers. It integrates hardware control, real-time communication, and user interface components in a dynamic application.
+
+### Table of Contents
 
 - [Features](#features)
 - [Hardware Components](#hardware-components)
@@ -43,11 +44,15 @@ The project is divided into three main applications, each running on a separate 
 2. Display Application: Manages the user interface, allowing the user to confirm, cancel or stop dispensing and shows notifications.
 3. Liquid Control Application: Controls the pump and sensors to measure and dispense the correct amount of liquid.
 
+TODO: link here to the uml resources part
+
 The project employs a layered software architecture, including:
 
 - Hardware Drivers: Custom, low-level drivers in C for direct hardware control
 - Hardware Abstraction Layer (HAL): Connector classes in C++ for simplified access to hardware features
 - Business Logic: High-level application logic in C++ that coordinates each stage of the dispensing process
+
+TODO: image of the layered architecture
 
 ## Skills and Technologies
 
