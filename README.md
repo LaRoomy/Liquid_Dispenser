@@ -77,6 +77,8 @@ This project demonstrates proficiency with a variety of embedded systems technol
 
 ## Testing and Validation
 
+TODO: Testframework: Google-Test / Google-Mock
+
 - Hardware Driver Tests: Separate test projects validate the functionality of each hardware driver.
 - HAL Tests: Test projects ensure reliable hardware integration via the Hardware Abstraction Layer.
 - Unit Tests: Hardware-independent unit tests cover business logic, providing robust, environment-agnostic validation.
