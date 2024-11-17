@@ -2,26 +2,26 @@
 ![project image banner](Resources/pipes_banner_img.png)
 
 ## Overview
-The Liquid Dispenser project is a comprehensive demonstration of embedded systems design and development, showcasing my expertise across a range of technical areas. This project was created as a portfolio piece to highlight my embedded development skills for potential employers. It integrates hardware control, real-time communication, and user interface components in a dynamic application.
+The Liquid Dispenser project is a comprehensive demonstration of embedded systems design and development, showcasing my expertise across a range of technical areas. This project was created as a portfolio piece to highlight my embedded development skills. It integrates hardware control, real-time communication, and user interface components in a dynamic application.
 
 ### Table of Contents
 
 - [Features](#features)
 - [Project Structure](#project-structure)
+- [Engineering](#engineering)
 - [Hardware Components](#hardware-components)
 - [Software Architecture](#software-architecture)
 - [Skills and Technologies](#skills-and-technologies)
 - [Testing and Validation](#testing-and-validation)
 - [Getting Started](#getting-started)
-- [Architecture Resources](#architecture-resources)
 - [Additional Info](#additional-info)
 - [License](#license)
 
 TODO: image of the parts and the schematic of the modules and so on.. ?
 
-TODO: enable links to important entries and words
+TODO: link to images of the hardware (real images) and a video of the project in action
 
-TODO: external tools used (e.g. GoogleTest) and links to install instructions and the tools itself
+TODO: link to the android app that is used for the NFC communication 
 
 ## Features
 
@@ -35,32 +35,38 @@ TODO: external tools used (e.g. GoogleTest) and links to install instructions an
 
 TODO: add the project structure, either as a tree or as a image..
 
+TODO: add a hint to the android app in the separate repository
+
+## Engineering
+
+This project was planned using the Unified Modeling Language (UML) to outline the structure, communication flows, and key components of the system. See the [engineering section](Engineering) for details.
+
 ## Hardware Components
+
 
 ![hardware-schematic](Resources/hardware_schematic.png)
 
- - STM322F446 Evaluation Board
- - ILI93?? Display-Touch combined board
- - NFC07A1 ?? Nucleo Expansion board using the STDVKxx ...
- - Pump, electric vent, pressure sensor, flow rate sensor ...
+
+ - [NUCLEO-F446RE](https://www.st.com/en/evaluation-tools/nucleo-f446re.html) STM32 Nucleo-64 development board with STM32F446RE MCU
+ - [ILI9341](https://cdn-shop.adafruit.com/datasheets/ILI9341.pdf) Touchscreen Display
+ - [X-NUCLEO-NFC07A1](https://www.st.com/en/ecosystems/x-nucleo-nfc07a1.html) - Dynamic NFC/RFID tag IC expansion board based on ST25DV64KC
+ - Other parts for the flow control: Pump, electric vent, pressure sensor and flow rate sensor
 
 ## Software Architecture
 
 The project is divided into three main applications, each running on a separate STM32F446 Evaluation Board:
 
-1. NFC Reader Application: Handles user input from the NFC device and initiates the dispensing process.
-2. Display Application: Manages the user interface, allowing the user to confirm, cancel or stop dispensing and shows notifications.
-3. Liquid Control Application: Controls the pump and sensors to measure and dispense the correct amount of liquid.
-
-TODO: link here to the uml resources part
+1. **NFC Reader Application:** Handles user input from the NFC device and initiates the dispensing process.
+2. **Display Application:** Manages the user interface, allowing the user to confirm, cancel or stop dispensing and shows notifications.
+3. **Liquid Control Application:** Controls the pump and sensors to measure and dispense the correct amount of liquid.
 
 The project employs a layered software architecture, including:
 
-- Hardware Drivers: Custom, low-level drivers in C for direct hardware control
-- Hardware Abstraction Layer (HAL): Connector classes in C++ for simplified access to hardware features
-- Business Logic: High-level application logic in C++ that coordinates each stage of the dispensing process
+- **Hardware Drivers:** Custom, low-level drivers in C for direct hardware control
+- **Hardware Abstraction Layer (HAL):** Connector classes in C++ for simplified access to hardware features
+- **Application Business Logic:** High-level application logic in C++ that coordinates each stage of the dispensing process
 
-TODO: image of the layered architecture !!
+![software-layers](Resources/software_layers.png)
 
 ## Skills and Technologies
 
@@ -77,17 +83,22 @@ This project demonstrates proficiency with a variety of embedded systems technol
 
 ## Testing and Validation
 
-TODO: Testframework: Google-Test / Google-Mock
-
 - Hardware Driver Tests: Separate test projects validate the functionality of each hardware driver.
 - HAL Tests: Test projects ensure reliable hardware integration via the Hardware Abstraction Layer.
 - Unit Tests: Hardware-independent unit tests cover business logic, providing robust, environment-agnostic validation.
 
+> [!NOTE]
+> The framework for testing is [Google-Test](https://github.com/google/googletest), which also includes Google-Mock.
+> To run the tests, Google-Test and Google-Mock must be installed and some prerequisites are needed. Please refer to [this page](https://michael.kafarowski.com/blog/unit-testing-with-stm32cubeide/) for more information.
+
 ## Getting Started
 ### Prerequisites
 
-- Hardware Requirements: STM32F446 Evaluation Boards, NFC module, touchscreen display, pump, pressure and flow sensors.
-- Development Tools: STM32CubeMX, Keil MDK, or a compatible IDE for STM32 development.
+- Hardware Requirements: STM32F446 Evaluation Boards, X-NUCLEO NFC07A1 module, ILI9341 touchscreen display, pump, electric vent, pressure and flow sensors.
+- Development Tools: STM32Cube IDE, Keil MDK, or a compatible IDE for STM32 development.
+
+> [!IMPORTANT]
+> I have created an Android application specifically for communication with the ST25DV64KC chip. The source code of this application is not included in this repository, instead I put it in a separate Repository, which can be found [here](https://github.com/LaRoomy/Android_NFC_Control).
 
 ### Installation
 
@@ -107,10 +118,6 @@ Open each application in your IDE, configure board connections, and build.
 - Scan the smartphone on the NFC reader.
 - Confirm or cancel the output on the touchscreen.
 - If confirmed, the system dispenses the selected amount of liquid.
-
-## Architecture Resources
-
-This project was planned using the Unified Modeling Language (UML) to outline the structure, communication flows, and key components of the system. See the Architecture Resources for diagrams and additional documentation.
 
 ## Additional Info
 > [!NOTE]
