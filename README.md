@@ -21,6 +21,8 @@ TODO: image of the parts and the schematic of the modules and so on.. ?
 
 TODO: link to images of the hardware (real images) and a video of the project in action
 
+TODO: remove segger or note it in the last section of used software..?
+
 ## Features
 
 + Interactive user interface with NFC-enabled smartphone input and touchscreen confirmation
@@ -42,7 +44,7 @@ The repository is organized to provide a clear separation of shared resources, m
 │   ├── Helper/                # Shared utility functions
 │   ├── STM32F4xx_chip_header/ # Basic header for the STM32F4xx device family
 │   ├── ThirdParty/            # Third party source code
-|   |   ├── FreeRTOS/            # Real-Time Operating System components
+|   |   └── FreeRTOS/            # Real-Time Operating System components
 |   |   └── SEGGER/              # Segger RTOS task trace tool
 │   └── Tools/                 # Shared tools
 │
@@ -70,6 +72,9 @@ The repository is organized to provide a clear separation of shared resources, m
 ├── HAL_Tests/                 # Test projects for HAL connector contracts
 │   └── .../
 │
+├── Reference_Documents/       # Documents required for the creation process -
+│   └── .../                     # - of hardware related code
+|
 ├── ...
 └── README.md                  # Project documentation
 ```
@@ -161,7 +166,7 @@ Open each application in your IDE, configure board connections, and build.
 
 ## Additional Info
 > [!NOTE]
-> All code is developed and written by Hans Philipp Zimmermann using the reference documents of the respective devices and peripherals, except the driver for the ILI9341 display and the FreeRTOS kernel. The display driver was adapted and rewritten, to conform with the object based c programming, using the [stm32-ili9341](https://github.com/afiskon/stm32-ili9341/tree/master) library. The FreeRTOS kernel was downloaded from [freertos.org](https://www.freertos.org/) and is licensed under the MIT license which could be read [here](https://www.freertos.org/Documentation/03-Libraries/01-Library-overview/04-Licensing).
+> All code is developed and written by Hans Philipp Zimmermann using the reference documents of the respective devices and peripherals, except the driver for the ILI9341 display, the STM32F4xx chip header and the FreeRTOS kernel. The display driver was adapted and rewritten, to conform with the object based c programming, using the [stm32-ili9341](https://github.com/afiskon/stm32-ili9341/tree/master) library. The STM32F4xx chip headers are taken from the [Tools & Software section](https://www.st.com/en/microcontrollers-microprocessors/stm32f446.html#tools-software) on the ST-Microelectronics website, the license is included in the folder. The FreeRTOS kernel was downloaded from [freertos.org](https://www.freertos.org/) and is licensed under the MIT license which could be read [here](https://www.freertos.org/Documentation/03-Libraries/01-Library-overview/04-Licensing).
 
 ## License
 
