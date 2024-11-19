@@ -21,8 +21,6 @@ TODO: image of the parts and the schematic of the modules and so on.. ?
 
 TODO: link to images of the hardware (real images) and a video of the project in action
 
-TODO: link to the android app that is used for the NFC communication 
-
 ## Features
 
 + Interactive user interface with NFC-enabled smartphone input and touchscreen confirmation
@@ -44,27 +42,27 @@ The repository is organized to provide a clear separation of shared resources, m
 │   ├── Helper/                # Shared utility functions
 │   ├── STM32F4xx_chip_header/ # Basic header for the STM32F4xx device family
 │   ├── ThirdParty/            # Third party source code
-|       ├── FreeRTOS/            # Real-Time Operating System components
-|       └── SEGGER/              # Segger RTOS task trace tool
+|   |   ├── FreeRTOS/            # Real-Time Operating System components
+|   |   └── SEGGER/              # Segger RTOS task trace tool
 │   └── Tools/                 # Shared tools
 │
 ├── NFC_Application/           # NFC Handling application
 |   ├── Application/             # Application business logic
 |   ├── UnitTesting/             # Unit tests for the business logic
-│   ├── Src/
-│   └── Inc/
+│   ├── Src/                     # Project specific source files
+│   └── Inc/                     # Project specific header files
 │
 ├── TouchScreen_Application/   # Touchscreen and User Interaction application
-|   ├── Application/
-|   ├── UnitTesting/
-│   ├── Src/
-│   └── Inc/
+|   ├── Application/             # Application business logic
+|   ├── UnitTesting/             # Unit tests for the business logic
+│   ├── Src/                     # Project specific source files
+│   └── Inc/                     # Project specific header files
 │
 ├── FlowControl_Application/   # Liquid dispensing control application
-|   ├── Application/
-|   ├── UnitTesting/
-│   ├── Src/
-│   └── Inc/
+|   ├── Application/             # Application business logic
+|   ├── UnitTesting/             # Unit tests for the business logic
+│   ├── Src/                     # Project specific source files
+│   └── Inc/                     # Project specific header files
 │
 ├── Driver_Tests/              # Test projects for validating hardware drivers
 │   └── .../
@@ -76,7 +74,8 @@ The repository is organized to provide a clear separation of shared resources, m
 └── README.md                  # Project documentation
 ```
 
-TODO: add a hint to the android app in the separate repository
+> [!NOTE]
+> Part of this project is also an Android application specifically for communication with the ST25DV64KC chip. The source code of this application is not included in this repository, instead I put it in a separate Repository, which can be found [here](https://github.com/LaRoomy/Android_NFC_Control).
 
 ## Engineering
 
