@@ -161,7 +161,7 @@ Open each application in your IDE, configure board connections, and build.
 
 ## Additional Info
 > [!NOTE]
-> All code is developed and written by Hans Philipp Zimmermann using the reference documents of the respective devices and peripherals, except the driver for the ILI9341 display and the FreeRTOS kernel. The display driver was adapted and rewritten, to conform with the object based c programming, using the [stm32-ili9341](https://github.com/afiskon/stm32-ili9341/tree/master) library. The FreeRTOS kernel is licensed under the MIT license which could be read [here](https://www.freertos.org/Documentation/03-Libraries/01-Library-overview/04-Licensing).
+> All code is developed and written by Hans Philipp Zimmermann using the reference documents of the respective devices and peripherals, except the driver for the ILI9341 display and the FreeRTOS kernel. The display driver was adapted and rewritten, to conform with the object based c programming, using the [stm32-ili9341](https://github.com/afiskon/stm32-ili9341/tree/master) library. The FreeRTOS kernel was downloaded from [freertos.org](https://www.freertos.org/) and is licensed under the MIT license which could be read [here](https://www.freertos.org/Documentation/03-Libraries/01-Library-overview/04-Licensing).
 
 ## License
 
