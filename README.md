@@ -33,7 +33,48 @@ TODO: link to the android app that is used for the NFC communication
 
 ## Project Structure
 
-TODO: add the project structure, either as a tree or as a image..
+The repository is organized to provide a clear separation of shared resources, main application logic, and testing components. This structure highlights the modular design of the project and its dependencies.
+
+``` graphql
+/LiquidDispenser
+├── SharedSource/              # Common code used across all applications
+│   ├── Constants/             # Cross project used constants and values
+│   ├── Drivers/               # Bare-metal hardware drivers
+│   ├── HAL/                   # Hardware Abstraction Layer (HAL) connectors
+│   ├── Helper/                # Shared utility functions
+│   ├── STM32F4xx_chip_header/ # Basic header for the STM32F4xx device family
+│   ├── ThirdParty/            # Third party source code
+|       ├── FreeRTOS/            # Real-Time Operating System components
+|       └── SEGGER/              # Segger RTOS task trace tool
+│   └── Tools/                 # Shared tools
+│
+├── NFC_Application/           # NFC Handling application
+|   ├── Application/             # Application business logic
+|   ├── UnitTesting/             # Unit tests for the business logic
+│   ├── Src/
+│   └── Inc/
+│
+├── TouchScreen_Application/   # Touchscreen and User Interaction application
+|   ├── Application/
+|   ├── UnitTesting/
+│   ├── Src/
+│   └── Inc/
+│
+├── FlowControl_Application/   # Liquid dispensing control application
+|   ├── Application/
+|   ├── UnitTesting/
+│   ├── Src/
+│   └── Inc/
+│
+├── Driver_Tests/              # Test projects for validating hardware drivers
+│   └── .../
+│
+├── HAL_Tests/                 # Test projects for HAL connector contracts
+│   └── .../
+│
+├── ...
+└── README.md                  # Project documentation
+```
 
 TODO: add a hint to the android app in the separate repository
 
@@ -121,7 +162,7 @@ Open each application in your IDE, configure board connections, and build.
 
 ## Additional Info
 > [!NOTE]
-> All code is developed and written by Hans Philipp Zimmermann using the reference documents of the respective devices and peripherals, except the driver for the ILI9341 display. This files are adapted and rewritten, to conform with the object based c programming, using the [stm32-ili9341](https://github.com/afiskon/stm32-ili9341/tree/master) library.
+> All code is developed and written by Hans Philipp Zimmermann using the reference documents of the respective devices and peripherals, except the driver for the ILI9341 display and the FreeRTOS kernel. The display driver was adapted and rewritten, to conform with the object based c programming, using the [stm32-ili9341](https://github.com/afiskon/stm32-ili9341/tree/master) library. The FreeRTOS kernel is licensed under the MIT license which could be read [here](https://www.freertos.org/Documentation/03-Libraries/01-Library-overview/04-Licensing).
 
 ## License
 
