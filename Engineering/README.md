@@ -1,10 +1,10 @@
 # Engineering
 
-The Engineering section provides an in-depth view of how this project was planned and designed. It includes diagrams created using the Unified Modeling Language (UML) to illustrate the system's functionality, workflows, and architecture. These resources demonstrate the thought process and structure behind the development of the Liquid Dispenser project.
+The Engineering section provides an in-depth view of how this project was planned and designed. It includes diagrams created using the Unified Modeling Language (UML) to illustrate the system's functionality, workflows, and architecture. These resources demonstrate the process and structure behind the development of the Liquid Dispenser project.
 
 Contents
 
-1. [Use-Case Overview](#use-case-overview): A high-level flow diagram of the system from the user's perspective.
+1. [Use-Case Overview](#use-case-overview): A Use-Case diagram of the system from the user's perspective.
 2. [Detailed Use Cases](#detailed-use-cases): Step-by-step UML flow diagrams for specific user interactions.
 3. [HAL Structure](#hal-structure): UML class diagrams showing the separation between application logic and hardware drivers.
 4. [CAN Communication](#can-communication-scheme): UML sequence diagram depicting the inter-board communication process.
