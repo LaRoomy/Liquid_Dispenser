@@ -90,8 +90,10 @@ This project was planned using the Unified Modeling Language (UML) to outline th
  - [X-NUCLEO-NFC07A1](https://www.st.com/en/ecosystems/x-nucleo-nfc07a1.html) - Dynamic NFC/RFID tag IC expansion board based on ST25DV64KC
  - Other parts for the flow control: Pump, electric vent, pressure sensor and flow rate sensor
 
-> [!NOTE]
-> Pictures of the hardware assembly and a demonstration video can be found in the [hardware section](Hardware).
+
+> [!TIP]
+> Pictures of the hardware assembly and a demonstration video can be found in the [Hardware section](Hardware).
+
 
 ## Software Architecture
 
