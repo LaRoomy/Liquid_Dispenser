@@ -17,12 +17,6 @@ The Liquid Dispenser project is a comprehensive demonstration of embedded system
 - [Additional Info](#additional-info)
 - [License](#license)
 
-TODO: image of the parts and the schematic of the modules and so on.. ?
-
-TODO: link to images of the hardware (real images) and a video of the project in action
-
-TODO: remove segger or note it in the last section of used software..?
-
 ## Features
 
 + Interactive user interface with NFC-enabled smartphone input and touchscreen confirmation
@@ -88,7 +82,6 @@ This project was planned using the Unified Modeling Language (UML) to outline th
 
 ## Hardware Components
 
-
 ![hardware-schematic](Resources/hardware_schematic.png)
 
 
@@ -96,6 +89,9 @@ This project was planned using the Unified Modeling Language (UML) to outline th
  - [ILI9341](https://cdn-shop.adafruit.com/datasheets/ILI9341.pdf) Touchscreen Display
  - [X-NUCLEO-NFC07A1](https://www.st.com/en/ecosystems/x-nucleo-nfc07a1.html) - Dynamic NFC/RFID tag IC expansion board based on ST25DV64KC
  - Other parts for the flow control: Pump, electric vent, pressure sensor and flow rate sensor
+
+> [!NOTE]
+> Pictures of the hardware assembly and a demonstration video can be found in the [hardware section](Hardware).
 
 ## Software Architecture
 
