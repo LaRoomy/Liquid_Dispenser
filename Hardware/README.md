@@ -36,3 +36,5 @@ Here is the flow control dispenser device, which pumps the selected amount of li
 ## Project Demonstration Video
 
 Watch the project in action as it dispenses water:
+
+[![Liquid dispenser portfolio project demonstration video](http://img.youtube.com/vi/yfymt_yXDyY/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_yfymt_yXDyY "Liquid Dispenser Portfolio Project Demonstration")
