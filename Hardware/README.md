@@ -25,7 +25,7 @@ This setup demonstrates the flow control hardware. The STM32F446 microcontroller
 
 This image shows the entire hardware setup assembled on breadboards. All parts are connected through the CAN bus.
 
-![complete project hardware setup](app_parts.JPEG)
+![complete project hardware setup](all_parts.JPEG)
 
 ## Flow Control Dispenser Device
 
